@@ -1,0 +1,20 @@
+@media screen and (max-width: 600px) {
+  .container {
+    width: 100%;
+    padding: 0 10px;
+  }
+
+  h1 {
+    font-size: 42px;
+  }
+
+  h3 {
+    font-size: 22px;
+  }
+}
+
+@media (min-width: 600px) {
+  .border-box-button {
+    flex: 0 0 calc(50% - 40px);
+  }
+}

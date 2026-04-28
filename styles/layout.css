@@ -1,0 +1,43 @@
+main {
+  flex: 1;
+  transform: translateX(-10%);
+  -webkit-transform: translateX(-10%);
+  -moz-transform: translateX(-10%);
+  -ms-transform: translateX(-10%);
+  -o-transform: translateX(-10%);
+  display: flex;
+  justify-content: center;
+}
+
+.container {
+  width: 80%;
+  margin: auto;
+}
+
+.center {
+  text-align: center;
+  justify-content: center;
+  justify-items: center;
+}
+
+.content {
+  padding-top: 100px;
+}
+
+.right {
+  float: right;
+  transform: translate(5%, -50%);
+  -webkit-transform: translate(5%, -50%);
+  -moz-transform: translate(5%, -50%);
+  -ms-transform: translate(5%, -50%);
+  -o-transform: translate(5%, -50%);
+}
+
+aside {
+  float: left;
+  transform: translateY(25%);
+  -webkit-transform: translateY(25%);
+  -moz-transform: translateY(25%);
+  -ms-transform: translateY(25%);
+  -o-transform: translateY(25%);
+}

@@ -1,0 +1,8 @@
+@font-face {
+  font-family: "Minecraft";
+  src:
+    url("fonts/MinecraftRegular-Bmg3.woff") format("woff"),
+    url("fonts/MinecraftRegular-Bmg3.woff2") format("woff2");
+  font-weight: normal;
+  font-style: normal;
+}

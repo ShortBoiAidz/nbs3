@@ -1,0 +1,56 @@
+.loading-screen {
+  position: fixed;
+  width: 100%;
+  height: 100%;
+
+  /* background: linear-gradient(180deg, var(--darkGradPrim), var(--lightGradPrim)); */
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  z-index: 100000;
+}
+
+.loading {
+  width: 80px;
+  display: flex;
+  flex-wrap: wrap;
+  animation: rotate 1s linear infinite;
+}
+
+.loading span {
+  width: 32px;
+  height: 32px;
+  margin: 4px;
+  animation: scale 1.5s linear infinite;
+}
+
+/* Individual blocks */
+.loading span:nth-child(1) {
+  background: var(--darkGradSec);
+  transform-origin: bottom right;
+}
+.loading span:nth-child(2) {
+  background: var(--darkGradPrim);
+  transform-origin: bottom left;
+}
+.loading span:nth-child(3) {
+  background: var(--darkGradSec);
+  transform-origin: top right;
+}
+.loading span:nth-child(4) {
+  background: var(--darkGradSec);
+  transform-origin: top left;
+}
+
+/* Animations */
+@keyframes rotate {
+  to {
+    transform: rotate(360deg);
+  }
+}
+
+@keyframes scale {
+  50% {
+    transform: scale(1.2);
+  }
+}

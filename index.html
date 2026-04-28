@@ -1,0 +1,171 @@
+<!doctype html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta
+      name="keywords"
+      content="Minecraft, Server, Homepage, NoodleBox, Season 3, NBS3"
+    />
+    <meta name="author" content="ShortBoiAidz, Aiden Thorpe" />
+    <meta name="viewport" content="width=device-width, initial-scale=1" />
+    <meta
+      name="copyright"
+      content="Copyright 2026 Aiden Thorpe. All rights reserved."
+    />
+
+    <title>NBS3 | Homepage</title>
+
+    <link rel="icon" type="image/x-icon" href="images/nbs3_logo.png" />
+
+    <link rel="preconnect" href="https://fonts.googleapis.com" />
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+    <link
+      href="https://fonts.googleapis.com/css2?family=League+Spartan:wght@100..900&display=swap"
+      rel="stylesheet"
+    />
+
+    <link
+      rel="stylesheet"
+      href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.0.0/css/all.min.css"
+      integrity="sha512-9usAa10IRO0HhonpyAIVpjrylPvoDwiPUiKdWk5t3PyolY1cOd4DSE0Ga+ri4AuTroPR5aQvXU9xC6qOPnzFeg=="
+      crossorigin="anonymous"
+      referrerpolicy="no-referrer"
+    />
+    <link
+      rel="stylesheet"
+      href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css"
+    />
+
+    <link rel="stylesheet" href="styles/base.css" />
+    <link rel="stylesheet" href="styles/layout.css" />
+    <link rel="stylesheet" href="styles/components.css" />
+    <link rel="stylesheet" href="styles/animations.css" />
+    <link rel="stylesheet" href="styles/responsive.css" />
+    <link rel="stylesheet" href="styles/other.css" />
+
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/jquery/3.5.1/jquery.min.js"></script>
+    <script src="scripts/loader.js"></script>
+  </head>
+
+  <body>
+    <div class="content">
+      <!-- Loading Screen -->
+      <div class="loading-screen">
+        <div class="loading">
+          <span></span>
+          <span></span>
+          <span></span>
+          <span></span>
+        </div>
+      </div>
+
+      <aside>
+        <div class="mainCardParent">
+          <div class="navCard">
+            <nav aria-label="Main Navigation">
+              <h3 class="navHeader gradient-text">Navigation</h3>
+              <br />
+              <div class="navDivider gradient-text"></div>
+              <br />
+              <a href="index.html"
+                ><h4 class="gradient-text active">Home</h4></a
+              >
+              <br />
+              <a href="players.html"
+                ><h4 class="gradient-text">Players</h4></a
+              >
+              <br />
+              <a href="societies.html"
+                ><h4 class="gradient-text">Societies</h4></a
+              >
+              <br />
+              <a href="gallery.html"
+                ><h4 class="gradient-text">Gallery</h4></a
+              >
+              <br />
+              <a href="roadmap.html"
+                ><h4 class="gradient-text">Roadmap</h4></a
+              >
+              <br />
+              <a href="https://discord.gg/WKGu4864M5"
+                ><h4 class="gradient-text">Join Here</h4></a
+              >
+              <br />
+              <a href="NoodleBox 1.0.1.mrpack" download
+                ><h4 class="gradient-text">Modrinth File</h4></a
+              >
+            </nav>
+          </div>
+        </div>
+      </aside>
+
+      <main>
+        <img
+          src="/noodlebox/images/nbs3_logo.png"
+          alt="NoodleBox Logo"
+          class="logo"
+        />
+        <div class="mainCardParent">
+          <div class="mainCard">
+            <h1 class="gradient-text">NoodleBox Season 3</h1>
+
+            <br />
+
+            <sub class="gradient-text"
+              >Since 21<sup>st</sup> March, 2026</sub
+            >
+
+            <br />
+
+            <div class="buttonCardParent">
+              <a href="https://discord.gg/WKGu4864M5">
+                <div class="buttonCard">
+                  <i
+                    class="fa-brands fa-discord"
+                    style="cursor: pointer"
+                  ></i>
+                </div>
+              </a>
+
+              <div class="buttonCard">
+                <i
+                  class="fa-solid fa-envelope"
+                  onclick="emailClick()"
+                  style="cursor: pointer"
+                ></i>
+              </div>
+            </div>
+          </div>
+        </div>
+
+          <br />
+
+            <div class="mainCardH2Parent">
+              <div class="mainCardH2">
+                <button onclick="location.href = 'players.html'">
+                  <h2>Players</h2>
+                  <p>Meet the players who populate NoodleBox</p>
+                </button>
+
+                <button onclick="location.href = 'societies.html'">
+                  <h2>Societies</h2>
+                  <p>NoodleBox is made up of societies. Find out more here</p>
+                </button>
+              </div>
+
+              <div class="mainCardH2">
+                <button onclick="location.href = 'gallery.html'">
+                  <h2>Gallery</h2>
+                </button>
+
+                <button onclick="location.href = 'roadmap.html'">
+                  <h2>Roadmap</h2>
+                </button>
+              </div>
+            </div>
+          </div>
+        </div>
+      </main>
+    </div>
+  </body>
+</html>
