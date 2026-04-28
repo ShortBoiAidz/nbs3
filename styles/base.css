@@ -22,7 +22,7 @@ body {
 }
 
 body {
-  background-image: url("/noodlebox/images/background.png");
+  background-image: url("/images/background.png");
   background-size: cover;
   display: flex;
   flex-direction: column;
